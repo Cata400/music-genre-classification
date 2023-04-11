@@ -1,6 +1,6 @@
 # Music Genre Classification
 
-The purpose of this project is to classify a melody by it's genre using several features extracted from songs from a music dataset.
+The purpose of this repository is to classify a melody by its genre using different temporal (such as Root Mean Square, Tempo, Zero Crossing Rate) and spectral (Spectrogram, Mel Frequency Cepstrum Coefficients, Discrete Wavelet Transform, etc) features. The Neural Network was trained on the GTZAN Dataset, which contains 1000 songs, equally divided into 10 genres, using the K-Fold Cross Validation technique.
 
 The directory tree of the project should be:
 <pre>
